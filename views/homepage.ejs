@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>Job</h1>
+  <div class="row">
+    <div class="col-xs-8">
+      <taskmate-tasklist tasks="{{tasks}}"></taskmate-tasklist>
+    </div>
+    <div class="col-xs-4">
+      <taskmate-task-edit v-if="selectedTask" task="{{selectedTask}}"></taskmate-task-edit>
+    </div>
+  </div>
+</div>
